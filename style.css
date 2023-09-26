@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrapper{
+    height:500px ;
+    background-image: url('image/hero-bg.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left span{
+    text-align: left;
+    font-family: 'Dancing Script';
+    font-size: 25px;
+}
+.header_center ul{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.header_center ul li{
+    list-style: none;
+    padding-right: 15px;
+}
+.header_center ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.header_center ul li a.home{
+    color: yellow;
+}
+
+.header_center ul li a:hover{
+    color: yellow;
+}
+.header_right ul{
+    display: flex;
+    align-items: center;
+
+}
+.header_right ul li{
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 0;
+}
+.header_right ul button{
+    padding: 5px 7px;
+    border-radius: 50px;
+    background-color: yellow;
+    color: white;
+    border: none;
+}
+.content{
+    margin-top: 100px
+}
+.content h2{
+    font-family: 'Dancing Script';
+    font-size: 40px;
+
+}
+.content p{
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.content button{
+    padding: 5px 7px;
+    border-radius: 50px;
+    background-color: yellow;
+    color: white;
+    border: none;
+}
+.content_foot ul{
+    margin-top: 100px;
+    display: flex;
+    list-style: none;
+}
+.content_foot ul li{
+    width: 10px;
+    height: 10px;
+    background-color: #998484;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.content_foot ul li:nth-child(3){
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.article{
+    height: 500px;
+    background-image: url('image/about-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-color: rgb(129, 118, 118);
+}
+.article_content{
+    position: relative;
+    transform: translate(50%);
+    color: white;
+}
+.article_content p{
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.article_content h2{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+.article_content button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    background-color: yellow;
+    color: white;
+    border: none;
+}
